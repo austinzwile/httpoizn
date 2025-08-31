@@ -9,7 +9,7 @@ httpoizn is a Python tool for detecting HTTP Host & Header Poisoning vulnerabili
 * Reflection analysis in both response body and headers.
 * Baseline comparison to catch subtle changes.
 * Simple CLI with Typer subcommands.
-* Color-coded output for easy triage.*
+* Color-coded output for easy triage.
 
 ## ⚡ Installation
 
@@ -18,15 +18,11 @@ Requires **Python 3.11+**.
 Clone and install locally with pipx (recommended):
 
 ```sh
-git clone https://github.com/yourusername/httpoizn.git
-cd httpoizn
-pipx install .
-```
-
-Or install in a virtualenv:
-
-```sh
-pip install .
+❯ pipx install .
+  installed package httpoizn 1.1.0, installed using Python 3.12.10
+  These apps are now globally available
+    - httpoizn
+done! ✨
 ```
 
 ## 🔧 Usage
@@ -59,16 +55,16 @@ httpoizn version                                 # Show version
 
 ## 📋 Options
 ```
-Usage: httpoizn [OPTIONS] COMMAND [ARGS]...
+❯ httpoizn run --help
 
-Commands:
-  run       Run httpoizn against a target URL
-  version   Show version information
+ Usage: httpoizn run [OPTIONS]
 
-Options for `run`:
-  -u, --url TEXT        Target URL [required]
-  -c, --canary TEXT     Custom host canary (optional)
-  -i, --ip-canary TEXT  Custom IP canary (optional)
+╭─ Options ─────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --url        -u      TEXT  Target URL [required]                                           │
+│    --canary     -c      TEXT  Custom host canary string (optional)                            │
+│    --ip-canary  -i      TEXT  Custom IP canary (optional)                                     │
+│    --help                     Show this message and exit.                                     │
+╰───────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 ## ⚠️ Disclaimer
