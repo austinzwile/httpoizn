@@ -2,8 +2,6 @@
 
 httpoizn is a Python tool for detecting HTTP Host & Header Poisoning vulnerabilities. It works by injecting randomized canaries into common HTTP headers and analyzes responses for reflections or meaningful differences.
 
----
-
 ## ✨ Features
 
 * Canary-based poisoning detection (host & IP canaries).
