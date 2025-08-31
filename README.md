@@ -29,7 +29,6 @@ Or install in a virtualenv:
 pip install .
 ```
 
----
 ## 🔧 Usage
 
 ```sh
@@ -45,8 +44,6 @@ httpoizn run -u https://target.com -i 6.6.6.6    # Specify custom IP canary
 httpoizn version                                 # Show version
 ```
 
----
-
 ## 🖥️ Example Output
 ```
 [+] Using host canary: z9hvgimj
@@ -59,8 +56,6 @@ httpoizn version                                 # Show version
   Header: X-Forwarded-For
     - Canary reflected in RESPONSE BODY
 ```
-
----
 
 ## 📋 Options
 ```
@@ -75,8 +70,6 @@ Options for `run`:
   -c, --canary TEXT     Custom host canary (optional)
   -i, --ip-canary TEXT  Custom IP canary (optional)
 ```
-
----
 
 ## ⚠️ Disclaimer
 
