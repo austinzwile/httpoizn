@@ -11,9 +11,6 @@ httpoizn is a Python tool for detecting HTTP Host & Header Poisoning vulnerabili
 * Simple CLI with Typer subcommands.
 * Color-coded output for easy triage.*
 
-
----
-
 ## ⚡ Installation
 
 Requires **Python 3.11+**.
