@@ -51,7 +51,7 @@ httpoizn version                                 # Show version
 [-] No poisoning with header Host
 [-] No poisoning with header X-Host
 [+] Potential poisoning detected with header X-Forwarded-For
-
+...
 [+] Summary of poisoned responses:
   Header: X-Forwarded-For
     - Canary reflected in RESPONSE BODY
